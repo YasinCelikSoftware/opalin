@@ -1,0 +1,33 @@
+.timeline {
+  background-color: white;
+  padding: 5rem;
+  text-align: center;
+}
+
+.timeline__cols {
+  margin-top: 8rem;
+  border-top: 2px solid gray;
+  padding-top: 2rem;
+}
+
+.timeline__oneFourthCol {
+  text-align: left;
+  position: relative;
+  padding: 0 3rem 0 0;
+}
+
+.timeline__oneFourthCol::before {
+  border-radius: 50%;
+  background: #575bde;
+  border: 4px solid #fff;
+  content: "";
+  height: 1rem;
+  left: -3px;
+  position: absolute;
+  top: -40px;
+  width: 1rem;
+}
+
+.timeline__colHeading {
+  font-weight: 700;
+}

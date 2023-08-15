@@ -1,0 +1,20 @@
+.partners {
+  padding: 5rem;
+  text-align: center;
+}
+
+.partners__heading {
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.partners__wideImage {
+  padding-top: 5rem;
+}
+
+.partners__image {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 0 32px 40px rgba(0, 0, 0, 0.1);
+}

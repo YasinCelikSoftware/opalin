@@ -1,0 +1,17 @@
+.present {
+  background-color: white;
+  padding: 5rem;
+  margin-bottom: 10rem;
+  height: 100vh;
+}
+
+.present__heading {
+  text-align: center;
+}
+
+.present__image {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 0 32px 40px rgba(0, 0, 0, 0.1);
+}

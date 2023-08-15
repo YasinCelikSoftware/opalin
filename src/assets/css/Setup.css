@@ -1,0 +1,19 @@
+.setup {
+  background-color: white;
+  padding: 5rem;
+  text-align: center;
+}
+
+.card {
+  text-align: left;
+  border-radius: 1rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card.active {
+  background-color: #1d1a3d;
+  color: white;
+}

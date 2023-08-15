@@ -1,0 +1,167 @@
+.footer {
+  padding: 5rem;
+  background: linear-gradient(140deg, #00d7af 25%, #575bde 100%);
+  position: relative;
+  z-index: 0;
+}
+
+.footer::before {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  bottom: -1px;
+  content: "";
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: -1px;
+  width: 100%;
+  background: url("https://preview.uiuxassets.com/opalin/media/bg/shape-dark-06.svg");
+  z-index: -1;
+}
+
+.footer__heading {
+  text-align: center;
+  color: white;
+}
+
+.footer__heading > h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.footer__heading > p {
+  font-size: 1.5rem;
+}
+
+.footer__featureIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer__innerFeatureIcon {
+  border-radius: 100%;
+  background: rgba(17, 15, 36, 0.04);
+  font-size: 3rem !important;
+  height: 6rem !important;
+  line-height: 6rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center;
+  width: 6rem !important;
+}
+
+.footer__innerFeatureIcon > svg {
+  font-size: 3rem !important;
+}
+
+.footer__createAccount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: #1d1a3d;
+  padding: 2rem;
+}
+
+.footer__createAccountInfo {
+  color: white;
+}
+
+.footer__createAccountButton,
+.footer__createAccountButton *,
+.footer__createAccountButton :after,
+.footer__createAccountButton :before,
+.footer__createAccountButton:after,
+.footer__createAccountButton:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.footer__createAccountButton {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #393ed8;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.footer__createAccountButton:disabled {
+  cursor: default;
+}
+
+.footer__createAccountButton:-moz-focusring {
+  outline: auto;
+}
+
+.footer__createAccountButton svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.footer__createAccountButton [hidden] {
+  display: none;
+}
+
+.footer__createAccountButton {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.footer__createAccountButton:hover {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+
+.footer__lists {
+  color: white;
+  padding-top: 5rem;
+  font-size: 0.8rem;
+}
+
+.footer__lists h6 {
+  font-weight: 700;
+}
+
+.footer__lists ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
