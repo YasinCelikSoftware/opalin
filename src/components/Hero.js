@@ -1,19 +1,21 @@
 import React from 'react';
 import '../assets/css/Hero.css';
 import {Button, Col, Container, Row} from 'reactstrap';
+import {useTranslation} from 'react-i18next';
 
 function Hero () {
+  const {t} = useTranslation ();
   return (
     <div className="hero">
       <Container>
         <Row>
           <Col md="6" className="hero__info">
             <div className="hero__innerInfo">
-              <h2>Opalin HTML Template</h2>
+              <h2>{t ('opalin')}</h2>
               <h4>
-                A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.
+                {t ('minimal')}
               </h4>
-              <Button className="hero__button">Get Started</Button>
+              <Button className="hero__button">{t ('started')}</Button>
             </div>
           </Col>
           <Col md="6">
@@ -28,10 +30,9 @@ function Hero () {
           <Row>
             <Col md="6" className="hero__info">
               <div className="hero__innerInfo">
-                <h2>Custom Framework</h2>
+                <h2>{t ('customFramework')}</h2>
                 <h4>
-                  {' '}
-                  Everything is neatly organized in Sass and has been heeavily focused on performances.
+                  {t ('everything')}
                 </h4>
               </div>
             </Col>
@@ -53,10 +54,9 @@ function Hero () {
             </Col>
             <Col md="6" className="hero__info">
               <div className="hero__innerInfo">
-                <h2>Designed In Sketch</h2>
+                <h2>{t ('sketch')}</h2>
                 <h4>
-                  {' '}
-                  100% of this HTML template, including all modules and components have been designed in Sketch.
+                  {t ('100')}
                 </h4>
               </div>
             </Col>
